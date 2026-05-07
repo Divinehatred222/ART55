@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.netlify/
+
+# Dados locais antigos (não usado mais, dados ficam no Supabase)
+data/
+public/uploads/
+public/fontes/
+public/output/
+
+# Variáveis de ambiente
+.env.local
+.env
+
+# Sistema
+.DS_Store
+*.tsbuildinfo
+
+# Editores
+.vscode/
+.idea/

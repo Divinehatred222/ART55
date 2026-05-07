@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_TELEMETRY_DISABLED = "1"
+  NODE_VERSION = "20"
+
+# Plugin oficial Next.js da Netlify (instala automaticamente)
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
